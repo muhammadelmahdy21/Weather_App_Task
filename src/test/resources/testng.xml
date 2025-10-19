@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Weather App Tests" parallel="tests" thread-count="2">
+
+<!--    <test name="Change Temperature Unit to F">-->
+<!--        <classes>-->
+<!--            <class name="tests.ChangeTemperatureUnitTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Change Time Format to 12 Hours">-->
+<!--        <classes>-->
+<!--            <class name="tests.ChangeTimeFormatTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Check Visibility of Rain and Humidity Values in the Homepage">-->
+<!--        <classes>-->
+<!--            <class name="tests.CheckVisibilityOfRainAndHumidityValuesTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Device1">
+        <classes>
+            <class name="runners.TestRunner"/>
+        </classes>
+    </test>
+
+</suite>
